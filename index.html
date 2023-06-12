@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Torres</title>
+</head>
+<body>
+    <main id="game">
+        <div id="tower1" class="tower">
+            <!-- d1 es el más pequeño y d5 es el más grande -->
+            <div class="d5 fichas" id="5"></div>
+            <div class="d4 fichas" id="4"></div>
+            <div class="d3 fichas" id="3"></div>
+            <div class="d2 fichas" id="2"></div>
+            <div class="d1 fichas" id="1"></div>
+        </div>
+        <div id="tower2" class="tower"></div>
+        <div id="tower3" class="tower"></div>
+    </main>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <h2 class="fin-del-juego">Fin del juego</h2>
+        <p id="msg" class="msg"></p>
+        <button id="modal-close" class="btn">Volver a jugar</button>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
